@@ -1,73 +1,49 @@
-# Welcome to your Lovable project
+Nexora
+A robust, production-ready web application built for speed and maintainability. This project demonstrates a clean implementation of the modern frontend stack.
 
-## Project info
+🏗 Tech Stack
+Core: React (Component-driven UI)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Build Tool: Vite (Optimized HMR & bundling)
 
-## How can I edit this code?
+Language: TypeScript (Strict type-safety)
 
-There are several ways of editing your application.
+Styling: Tailwind CSS (Utility-first design)
 
-**Use Lovable**
+UI Components: shadcn/ui (Accessible primitives)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+🚀 Development Workflow
+1. Environment Setup
+Ensure you have Node.js (LTS) and npm installed.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Bash
 git clone <YOUR_GIT_URL>
+cd Nexora
+npm install
+2. Local Development
+Run the development server with Hot Module Replacement (HMR):
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Bash
 npm run dev
-```
+3. Production Build
+Generate optimized, minified assets for deployment:
 
-**Edit a file directly in GitHub**
+Bash
+npm run build
+⚙️ Architecture & Features
+Modular Design: Logic and UI are decoupled for easy maintenance.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Cloud Ready: Fully compatible with Vercel, Netlify, or AWS for instant CI/CD.
 
-**Use GitHub Codespaces**
+Scalable Styling: Global design tokens managed via Tailwind for consistent branding.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Flexible Editing: Support for local IDEs, GitHub Web Editor, and GitHub Codespaces.
 
-## What technologies are used for this project?
+🌐 Deployment
+The project builds to a /dist folder. To deploy, simply connect your repository to a hosting provider or manually serve the build folder:
 
-This project is built with:
+Run npm run build.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Map the /dist directory to your web server.
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Configure DNS via your provider’s dashboard for custom domain integration.
